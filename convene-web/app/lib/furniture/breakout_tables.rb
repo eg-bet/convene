@@ -1,7 +1,4 @@
 module Furniture
-  class BaseController < ::ApplicationController
-  end
-
   class BreakoutTables
     attr_accessor :placement
 

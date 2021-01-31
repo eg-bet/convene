@@ -18,6 +18,7 @@ Rails.application.routes.draw do
       resource :waiting_room, only: %i[show update]
       namespace :furniture do
         resources :tables, only: [:show], controller: 'breakout_tables/'
+        resource :videobridge_bbb, only: [:show], controller: 'videobridge_bbb/'
       end
     end
   end

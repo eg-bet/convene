@@ -22,10 +22,13 @@ class SystemTestSpace
         }
       },
       {
-        name: 'Listed Room 2',
+        name: 'BBB Sample Room',
         publicity_level: :listed,
         access_level: :unlocked,
-        access_code: nil
+        access_code: nil,
+        furniture_placements: {
+          videobridge_bbb: {}
+        }
       },
       {
         name: 'Listed Locked Room 1',

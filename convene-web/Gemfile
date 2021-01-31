@@ -58,6 +58,11 @@ gem 'passwordless'
 # Provides powerful administration features
 gem 'administrate'
 
+# Furniture support
+#
+# Big Blue Button API
+gem 'bigbluebutton-api-ruby', github: 'mconf/bigbluebutton-api-ruby', ref: '91dc495'
+
 # Date/Time and Internationalization
 #
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
