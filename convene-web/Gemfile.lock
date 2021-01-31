@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/mconf/bigbluebutton-api-ruby.git
+  revision: 91dc495324a6b7e162773227ec3650f8a5b39c50
+  ref: 91dc495
+  specs:
+    bigbluebutton-api-ruby (1.7.0)
+      childprocess (>= 1.0.1)
+      ffi (>= 1.9.24)
+      json (>= 1.8.6)
+      nokogiri (>= 1.10.4)
+      rack (>= 1.6.11)
+      rubyzip (>= 1.3.0)
+      xml-simple (~> 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -81,6 +95,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
+    childprocess (4.0.0)
     coderay (1.1.3)
     commonmarker (0.21.0)
       ruby-enum (~> 0.5)
@@ -111,6 +126,7 @@ GEM
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
+    json (2.5.1)
     kaminari (1.2.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.2.1)
@@ -212,6 +228,7 @@ GEM
     rspec-support (3.9.3)
     ruby-enum (0.8.0)
       i18n
+    rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -258,6 +275,7 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    xml-simple (1.1.8)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -267,6 +285,7 @@ DEPENDENCIES
   active_record_extended
   administrate
   bcrypt (~> 3.1.7)
+  bigbluebutton-api-ruby!
   bootsnap (>= 1.4.2)
   commonmarker
   dotenv-rails
